@@ -1,0 +1,67 @@
+body {
+  font-family: "Roboto", sans-serif; }
+
+header h1 {
+  padding: 40px;
+  font-size: 30px;
+  overflow: hidden;
+  text-align: center;
+  text-shadow: 0px 0px #e60000, 1px 1px #e60000, 2px 2px #e60000, 3px 3px #e60000, 4px 4px #e60000, 5px 5px #e60000, 6px 6px #e60000, 7px 7px #e60000, 8px 8px #e60000, 9px 9px #e60000, 10px 10px #e60000, 11px 11px #e60000, 12px 12px #e60000, 13px 13px #e60000, 14px 14px #e60000, 15px 15px #e60000, 16px 16px #e60000, 17px 17px #e60000, 18px 18px #e60000, 19px 19px #e60000, 20px 20px #e60000, 21px 21px #e60000, 22px 22px #e60000, 23px 23px #e60000, 24px 24px #e60000, 25px 25px #e60000, 26px 26px #e60000, 27px 27px #e60000, 28px 28px #e60000, 29px 29px #e60000, 30px 30px #e60000, 31px 31px #e60000, 32px 32px #e60000, 33px 33px #e60000, 34px 34px #e60000, 35px 35px #e60000, 36px 36px #e60000, 37px 37px #e60000, 38px 38px #e60000, 39px 39px #e60000, 40px 40px #e60000, 41px 41px #e60000, 42px 42px #e60000, 43px 43px #e60000, 44px 44px #e60000, 45px 45px #e60000, 46px 46px #e60000, 47px 47px #e60000, 48px 48px #e60000, 49px 49px #e60000, 50px 50px #e60000; }
+
+h1 {
+  margin: 15px, 0px, 15px, 0px;
+  color: #3399ff; }
+
+p {
+  margin: 0px; }
+
+span.bold {
+  font-weight: bold; }
+
+img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.stars span {
+  font-size: 20px;
+  color: orange;
+  cursor: pointer; }
+  .stars span:hover:before {
+    content: "\2605";
+    position: absolute;
+    color: orange; }
+
+.main_block {
+  position: relative;
+  margin-top: 15px;
+  top: 20%;
+  left: 20%;
+  width: 650px;
+  height: 270px;
+  border: 1px solid white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgba(204, 204, 204, 0.2); }
+
+.stars {
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  top: 210px;
+  left: 75px; }
+
+.text {
+  padding: 0px;
+  margin: 0px; }
+
+.images {
+  margin: 15px;
+  width: 200px;
+  height: 200px;
+  float: left; }
+
+/*# sourceMappingURL=mystyle.css.map */

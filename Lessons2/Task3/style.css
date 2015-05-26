@@ -1,0 +1,61 @@
+div.row#top {
+    background-color: #626e93;
+    text-align: center;
+    font-size: 1.5em;
+    color:white;
+    padding-top: 10px;}
+div.row#top a:link { color: gainsboro;}
+.site-brand {
+    float: left;
+    }
+header.banner {background-image: url(grey-prism-63478a91.svg);}
+div.navbar  {
+    margin: 30px 30px 0px 0px;
+    }
+
+
+.page-header {
+    background-image: url(grey-prism-63478a91.svg);
+	margin-bottom:1.5em;
+	-moz-transition-property:padding;
+	-o-transition-property:padding;
+	-webkit-transition-property:padding;
+	transition-property:padding;
+	border-color:#dadbdf;
+    color:#699;
+    margin: 0px;
+}
+h1#header  {
+    text-align: center;
+    font-size: 300%;}
+main.main {display: table;}
+div.hero-lockup {display: table-row;}
+div.hero {display:table-cell; width: 73%; vertical-align: middle;}
+div.ptext {display:table-cell;width: 24%;vertical-align: middle;}
+.hero-image img{
+    margin-top: 20px;
+	max-width:100%;
+	height:auto;
+    }
+p.introduction {
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 15px;
+    font-size: 2em;
+	text-align:left;
+	color:#699;
+    }
+div.row#middle {
+    background-color: #dd2e93;
+    text-align: center;
+    font-size: 1.2em;
+    color:white;
+    padding: 10px;}
+div.row#middle a {margin-left: 25px;}
+div.row#top a:hover {text-decoration: underline;}
+section.section-bottom div.container li {display:inline-block; margin: 20px; max-width: 300px; vertical-align: top;}
+section.section-bottom div.container h3 {color: grey; text-transform:uppercase;}
+footer.contentinfo {background-image: url(grey-prism-63478a91.svg);}
+footer.contentinfo>nav.container-fluid {margin: 0px;}
+.contentinfo-legal, .contentinfo-tools {margin: 25px 15px 25px 15px; display: inline-block; max-width: 500px;}
+.contentinfo-legal ul, .contentinfo-tools ul {list-style-type:none;}
+.contentinfo-tools li {display: inline;}

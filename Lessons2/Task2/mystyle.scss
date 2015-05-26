@@ -1,0 +1,76 @@
+	@function makelongshadow($color) {
+	$val: 0px 0px $color;
+	@for $i from 1 through 50 {
+    $val: #{$val}, #{$i}px #{$i}px #{$color};
+	}
+	@return $val;
+	}
+
+	@mixin longshadow($color) {
+	text-shadow: makelongshadow($color);
+	}
+	@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+		  }
+	$color: red;
+	$font-stack: 'Roboto', sans-serif;
+	$linkH1Color: #3399ff;
+	body {font-family: $font-stack;  
+		}
+	header {
+		& h1 {
+		padding: 40px;
+		font-size: 30px;
+		overflow: hidden;
+		text-align: center;
+		@include longshadow(darken($color, 5% ));
+		} }
+	h1 {margin: 15px, 0px, 15px, 0px; 
+		color: $linkH1Color
+		}
+	p {margin: 0px;
+		}
+	span.bold {font-weight: bold;
+		}
+	img { @include border-radius(5px); }
+	.stars span { font-size: 20px;
+	   color: orange;
+	   cursor: pointer;
+	 &:hover:before {
+    content: "\2605";
+    position: absolute;
+    color: orange;
+	} }
+	.main_block {
+			position: relative;
+			margin-top: 15px;
+			top:20%;
+			left: 20%;
+			width: 650px;
+			height: 270px;
+			border: 1px solid white;
+			@include border-radius(5px);
+			background-color: rgba(204, 204, 204, 0.2);
+			}
+	.stars {
+		position: absolute;
+		width:100px;
+		height:15px;
+		top: 210px;
+		left: 75px;
+		}
+	.text {
+		padding: 0px;
+		margin: 0px;
+			
+		}
+	.images {
+			margin: 15px;
+			width: 200px;
+			height: 200px;
+			float: left;
+		}
+	
