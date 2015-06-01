@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+     <div class="container">
+      <div class="relative">
+    <form action="table.php" method="POST" class="form-inline" id="form">
+        <div class="form-group">
+            <label for="numbers1">Number of row:</label>
+            <input type="number" class="form-control" name="number1" placeholder="Enter the number of row" required >
+        </div>
+        <div class="form-group">
+            <label for="numbers2">Number of cell:</label>
+            <input type="number" class="form-control" name="number2" placeholder="Enter the number of cell" required>
+        </div>
+           <button type="submit" id="button" class="btn btn-primary">Submit</button>
+          
+    </form>
+    </div>
+    </div>
+</body>
+</html>
