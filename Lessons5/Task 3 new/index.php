@@ -1,3 +1,3 @@
 <?php
-$date= date("l dS of F Y H:i:s A");
+$date= date("l dS F Y h:i:s A");
 include 'index.html.php';
