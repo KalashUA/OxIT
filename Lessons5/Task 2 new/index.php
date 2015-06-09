@@ -8,7 +8,7 @@ exit();
 
 else if ((isset($_POST['username'])) and (isset($_POST['text'])))
 {
-    $usertext=serialize($_POST);
+    $usertext=serialize(array_slice($_POST,0, 1));
     $fp = fopen('text/'.$_POST['username'].'.txt', "w+");
     fwrite($fp, $usertext);
     fclose ($fp);
