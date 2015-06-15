@@ -26,7 +26,7 @@ catch (PDOException $e)
 
 try
 {
-  $sql = "CREATE TABLE $login (
+  $sql = "CREATE TABLE users (
       id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
       name VARCHAR(255),
       password VARCHAR(255)
